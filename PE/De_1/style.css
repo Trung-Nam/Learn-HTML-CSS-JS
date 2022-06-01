@@ -1,0 +1,79 @@
+header{
+    background-color: rgba(238, 102, 0, 1);
+    height: 100px;
+    padding: 16px;
+}
+
+header ul {
+    float: right;
+    color: #fff;
+    list-style-type: none;
+    padding-top: 60px;
+}
+
+header ul li {
+    display:inline-block;
+    margin: 8px;
+    font-size:24px;
+}
+
+#left {
+    float: left;
+    width: 25%;
+    font-size: 36px;
+    justify-content: center;
+    text-align: center;
+}
+#left ul li {
+    list-style-type: none;
+    margin: 36px;
+    color:rgba(122, 122, 122, 0.8);
+    /*
+        -Cấu tạo 3 màu cơ bản Red,Green,Blue
+        -Từng thành phần của dấu chấm phẩy sẽ tương ứng với 3 kênh màu
+        Từng kênh màu 0-255
+        Cái thuộc tính cuối cùng(alpha): 0-1 vd: 0.1,....1(Độ chuyển màu)
+    */
+    border-bottom: 2px solid rgba(238, 102, 0, 1);
+}
+#left ul li:first-child {
+    background-color: #dd6600;
+    color: white;
+}
+#right {
+    float: right;
+    width: 70%;
+    border-left: 5px solid #dd6600;
+}
+#right ul li {
+    font-size:24px;
+}
+.form-group{
+    margin-left: 20px;
+}
+
+.form-group h1 {
+    color: rgba(238, 102, 0, 1);
+    font-size:48px;
+}
+input{
+    margin-top:4px;
+}
+select{
+    margin: 4px;
+}
+button{
+    border: none;
+    background-color:rgba(238, 102, 0, 1);
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-bottom:8px;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    padding:8px;
+    background-color:rgba(238, 102, 0, 1);
+}

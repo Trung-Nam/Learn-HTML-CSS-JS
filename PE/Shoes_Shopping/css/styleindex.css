@@ -1,0 +1,48 @@
+.service-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-left: 16px;
+}
+.service-text h3 {
+  font-size: 20px;
+}
+.combo-header-des,
+.order-header-des {
+  opacity: 0.6;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.item-infor {
+  background-color: rgb(199, 199, 199);
+  padding: 10px 10px 0px 10px;
+}
+.item-title {
+  border-bottom: 1px dashed rgb(59, 59, 59);
+}
+.item-address {
+  margin-bottom: 20px;
+}
+.footer{
+    background-color: rgb(39, 38, 38);
+    color: #fff;
+    padding: 20px 0px;
+    margin-top: 25px;
+}
+
+.navbar-right{
+    float: right;
+}
+.img-responsive{
+    width: 100%;
+    display: block;
+    height: auto;
+    margin-bottom: 16px;
+}
+@media (max-width: 768px){
+    .navbar-right {
+        float: none;
+    }
+}

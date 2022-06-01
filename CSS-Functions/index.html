@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Functions</title>
+        <meta charset="utf-8">
+        
+        <style>
+            .box {
+                width: 100%;
+                height: 120px;
+                background: rgb(56, 255, 89);
+            }
+
+            .box2 {
+                width: 100%;
+                height: 120px;
+                background: rgb(255, 56, 238);
+            }
+            a::after {
+                content:"("attr(href)")"; /*thêm nháy kép để nối dấu ()*/
+            }
+
+            .box::after {
+                content: attr(data-title);
+            }
+
+            .box2::after {
+                content: attr(data-title)
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box" data-title="Đây là box màu xanh"></div>
+
+        <div class="box2" title="Đây là box màu hồng"></div>
+        <!-- Khi để là title thì khi trỏ vào khu đó nó sẽ hiện ra một tooltip nho nhỏ -->
+        <a href="http://example.com">Học lập trình</a>
+
+        <h1>CSS Functions ?</h1>
+        
+        <ul>
+            <li>var()</li>
+            <li>linear-gradient()</li>
+            <li>rgba()</li>
+            <li>rgb()</li>
+            <li>calc(): Dùng để tính toán</li>
+            <li>attr()</li>
+        </ul>
+    </body>
+</html>

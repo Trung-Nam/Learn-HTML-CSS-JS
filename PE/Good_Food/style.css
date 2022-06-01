@@ -1,0 +1,103 @@
+html{
+    background-color: #333333;
+    color: #fff;
+}
+.col-quarter{
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+}
+.logo img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;    
+}
+
+nav{
+    height:50px;
+    background-color:#222222;
+    margin:16px;
+    padding:8px 0px;
+    border-radius: 3px;
+    border: 1px solid #000;
+}
+nav img{
+    width: 32px;
+    height: 28px;
+}
+nav a {
+    text-decoration: none;
+    font-size:41px;
+    color: #fff;
+    padding: 10px 20px;
+}
+nav a:hover{
+    background-color:#000;
+    padding:10px 20px;
+}
+.Search-input,.Search-button{
+    float: right;
+    font-size: x-large;
+    margin: 8px 8px;
+}
+.slider img{
+    width: 98%;
+    margin-left: 18px;
+}
+.Item-List {
+    border-bottom: 3px orange solid;
+} 
+.Item-List img{ 
+    width: 320px;
+    height: 250px;
+    margin:16px;
+}
+
+.Mi-Quang .miquang-details,
+.SPING-ROLLS .spingroll-details{
+    width: 80%;
+    float: right;
+    color: #fff;
+    text-align: justify;
+    margin-right: 16px;
+    font-size:18px;
+}
+
+.Mi-Quang .miquang-details h1,
+.SPING-ROLLS .spingroll-details h1{
+    Text-align: center;
+    text-transform: uppercase;
+    color: orange;
+}
+.Mi-Quang .miquang-details button,
+.SPING-ROLLS .spingroll-details button{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    padding:8px 16px;
+    margin: 0 50%;
+    border-radius: 3px;
+}
+
+footer {
+    color: #fff;
+    background-color: rgba(128, 126, 126, 0.7);
+    height: 120px;
+}
+
+footer ul li {
+    font-size: 20px;
+    margin-top: 12px;
+}
+footer .information{
+    float:left;
+    width:60%;
+}
+footer .icon-infor{
+    float: right;
+    width:30%;
+}
+footer .icon-infor img{
+    margin: 32px 16px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Border</title>
+        <meta charset="UTF-8" />
+
+        <style>
+            .box {
+              width: 60px;
+              height: 60px;
+              color: #fff;
+              display: flex;
+              align-items: center;
+              justify-content: center;  
+            }
+
+            .box1 {
+                background-color: #333;
+            }
+
+            .box2 {
+                background-color: orange;
+            }
+
+            .box3 {
+                background-color: firebrick;
+                border-top-width: 10px;
+                border-right-width: 10px;
+                border-bottom-width: 10px;
+                border-left-width: 10px;
+                border-style: groove;
+                border-color:forestgreen;
+            }
+            /*border: mặc định tính bằng 2px
+            thế nên nếu muốn chỉ border-top-width thôi thì ta cho các thông số khác bằng 0
+            
+            border-style:
+            solid:nét liền
+            dashed: đứt nét
+            dotted: (dotted line): dòng chấm
+            double: tạo ra 2 nét liền bao quanh
+            groove: tạo ra thêm 1 rãnh
+
+            */
+        </style>
+    </head>
+
+    <body>
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+    </body>
+</html>

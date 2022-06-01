@@ -1,0 +1,17 @@
+.Infor label {
+    width: 70px;
+    height: 25px;
+    float: left;
+    padding-top: 10px;
+}
+
+.Infor input {
+    width: 500px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.Infor button {
+    margin-left: 250px;
+    padding:8px 16px;
+}

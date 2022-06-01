@@ -1,0 +1,57 @@
+:root {
+  --primary-color: rgb(63, 208, 212);
+  --white-color: #ffffff;
+  --text-color: #212121;
+  --text-small-color: rgb(105, 104, 104);
+  --header-height: 80px;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
+}
+/* ! Phần hiệu ứng đổi màu */
+.all__link::after,
+.header-item__link::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 3px;
+  border-radius: 3px;
+  background-color: rgb(237, 164, 240);
+  transition: width 0.2s ease-out;
+  z-index: 99;
+}
+
+.all__item:hover .all__link::after,
+.header-item__link:hover::after {
+  width: 100%;
+  background-color: var(--primary-color);
+  transition: width ease-out 0.2s, background-color ease-in 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  to {
+    transform: translateX(100%);
+  }
+}
+@keyframes appear {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0;
+    transform: scaleY(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,66 @@
+.container {
+    background-color: #333;
+    color: #fff;
+}
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row img {
+    width: 100%;
+}
+h2{
+    text-align: center;
+    color: yellow;
+}
+p{
+    text-align: justify;
+    font-size:18px;
+}
+.sale input{
+    color: #fff;
+    background-color: orangered;
+    padding: 16px 16px;
+    border-radius: 10px;
+    margin: 0 43%;
+}
+.footer{
+    background-color:gray;
+    color:#fff;
+    padding: 16px 0px;
+    border-top: 2px solid orange;
+}
+.footer img{
+    width:auto;
+    padding-top: 8px;
+    margin: 0px 4px;
+}
+.ordertab th{
+    color: yellow;
+}
+.ordertab p{
+    color: yellow;
+    text-align: center;
+}
+.ordertab th,tr,td{
+    border: 1px solid #fff;
+    text-align: center;
+    padding:8px 8px;
+}
+#mytab{
+    display: none;
+    margin: 0px 30%;
+}
+@media (max-width: 768px){
+    .sale input{
+        color: #fff;
+        background-color: orangered;
+        padding: 16px 16px;
+        border-radius: 10px;
+        margin: 0 28%;
+    }
+    #mytab{
+        display: none;
+        margin:0;
+    }
+}

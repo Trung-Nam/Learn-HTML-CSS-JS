@@ -1,0 +1,100 @@
+.header{
+    display:flex;
+}
+.header img{
+    width:100px;
+    height:100px;
+}
+.menu {
+    margin: auto 15%;
+}
+.menu ul li {
+    display:inline-block;
+    list-style-type: none;
+}
+.menu ul li a {
+    text-decoration: none;
+    padding:10px;
+    margin:1%;
+    color:#000;
+    font-size:24px;
+}
+.search{
+    margin:auto 0;
+    padding-left:300px;
+}
+.search input,.search button{
+    padding: 8px 16px;
+}
+.banner img{
+    width:100%;
+}
+h1 {
+    Margin:2% 0px;
+    text-align:center;
+    color:rgb(7, 114, 114);
+}
+.marina {
+    display: flex;
+    width:90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px 5px gray;
+    border-radius:2px;
+    border: 1px solid gray;
+}
+.marina .marina_content {
+    padding-left:12px;
+}
+.summer {
+    display: flex;
+    width:92%;
+    margin: 0 auto;
+}
+.summer img {
+    width:400px;
+    height:350px;
+}
+.tour,.tour2 {
+    display: flex;
+    width: 50%;
+    margin: 0 25px;
+    box-shadow: 1px 1px 5px 5px gray;
+    border-radius:2px;
+    border: 1px solid gray;
+}
+.tour_content{
+    padding-left: 16px;
+}
+.tour_content h3{
+    font-size:24px;
+}
+.tour_content p{
+    font-size:20px;
+}
+
+.hotel {
+    display:flex;
+    width:100%;
+}
+.vivu{
+    text-align:center;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px 5px gray;
+    border-radius:2px;
+    border: 1px solid gray;
+}
+
+.hotel img {
+    width:400px;
+    height:400px;
+
+}
+.footer{
+    background-color: rgb(7, 114, 114);
+    text-align: center;
+    color:#fff;
+    padding:8px 0px; 
+    margin-top:5%;
+}
+
+ 

@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Trường hợp đưa padding và margin về 0 thường được gọi là Reset CSS
+Reset CSS là công việc chúng ta thường làm ngay từ khi bắt đầu xây dựng một trang web. */
+    /* VD1:Chọn các thẻ p */
+    p {
+      color: lightgreen;  
+    }
+
+    /* VD2:Chọn các thẻ có class paragraph1 */
+
+    .Paragraph1 {
+      color: red;
+    }
+
+    /* VD3:Chọn các thẻ có class paragraph và class p1 */
+    
+    .Paragraph.p2 {
+      color: blue;
+    }
+
+    /* VD4:Chọn các thẻ có class children là con của thẻ có class parent*/
+
+    .parent .children {
+      color: brown;
+    }

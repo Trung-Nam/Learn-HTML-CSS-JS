@@ -1,0 +1,36 @@
+.service-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-left: 16px;
+}
+.service-text h3 {
+  font-size: 20px;
+}
+.combo-header-des {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+
+.item-infor {
+  background-color: rgb(226, 222, 222);
+  padding: 10px 10px 0px 10px;
+}
+.item-title {
+  border-bottom: 2px dashed rgb(59, 59, 59);
+}
+.footer {
+    background-color: rgb(39, 38, 38);
+    color: #fff;
+    padding: 20px 0px;
+    margin-top: 25px;
+}
+
+@media (max-width: 768px) {
+    .img-responsive {
+        width: 100%;
+        margin-top:16px;
+    }
+}

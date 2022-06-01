@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .pc,
+        .tablet,
+        .mobile {
+            font-size: 68px;
+            color: #000000;
+            display: none;
+        }
+        /* PC */
+        @media (min-width: 1024px) {
+            .pc {
+                display: block;
+            }
+        }
+
+        /* Tablet */
+
+        @media (max-width: 1023px) and (min-width: 740px) {
+            .tablet {
+                display: block;
+            }           
+        }
+
+        /* Mobile */
+
+        @media (max-width: 739px) {
+            .mobile {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        Bài này học cơ bản về cách responsive trên các thiết bị khác nhau 
+        Kinh nghiệm: Các khoảng hiển thị trên từng thiết bị
+        PC: >=1024px
+        tablet: >= 740px & < 1024px
+        mobile: < 740px
+
+        max-width: tức là kích thước tối đa
+        min-width: tức là kích thước tối thiểu
+        
+    -->
+
+    <h2 class="pc">PC</h2>
+    <h2 class="tablet">TABLET</h2>
+    <h2 class="mobile">MOBILE</h2>
+</body>
+</html>

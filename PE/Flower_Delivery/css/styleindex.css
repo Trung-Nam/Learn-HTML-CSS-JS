@@ -1,0 +1,42 @@
+.welcome{
+    text-align: center;
+    background-color: rgb(238, 159, 172);
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.welcome button{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.image{
+    background-color: rgb(238, 159, 172);
+    margin: 0 auto;
+    padding: 32px 0px;
+}
+.flower-tiltle{
+    background-color:rgb(255, 232, 236);
+    margin: 0 15px;
+    padding: 16px;
+}
+.mycode{
+    background-color: rgb(255, 232, 236);
+    margin: 0 auto;
+}
+.mycode .flowers {
+    width:23%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 48px;
+    margin: 1%;
+}
+.mycode h2,.mycode p{
+    text-align: center;
+}
+.mycode button{
+    margin: 0 38%;
+}
+.footer{
+    background-color:#98c93c;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SimpleLearn CSS selector</title>
+        <meta charset=utf-8>
+
+        <link rel="stylesheet" href="CSSselector.css">
+    </head>
+
+    <body>
+        <!-- VD1: -->
+        <h1>Học CSS selector</h1>
+        <p>Học một cách cẩn thận</p>
+        <p>Học sao cho thật hiểu</p>
+
+        <!-- VD2: -->
+        <h2>Chúng ta cần bắt đầu từ đâu ?</h2>
+        <p class="Paragraph1">Đọc hết các bài giảng trên F8</p>
+        <p class="Paragraph1">Rồi mở VSCode lên và thực hành thôi nào !!!</p>
+
+        <!-- VD3: -->
+        <h3>Chúng ta cần code những gì nhỉ ?</h3>
+        <p class="Paragraph p2">Làm từng ví dụ một.</p>
+        <p class="Paragraph p2">Xem và ghi nhớ !!!</p>
+
+        <!-- VD4: -->
+        <!-- Trường hợp .children là con trực tiếp của .parent -->
+        
+        <div class="parent">   
+            <div class="children">Children 1</div>
+            <div class="children">Children 2</div>
+            <div class="children">Children 3</div>
+        </div>
+        <!-- Hoặc các .children nằm rải rác, miễn là con của .parent -->
+    
+        <div class="parent">
+            <div class="children">Children 1</div>
+
+            <div class="other-div">
+                <div class="children">Children 2</div>
+
+                <div class="other-div">
+                    <div class="children">Children 3</div>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>

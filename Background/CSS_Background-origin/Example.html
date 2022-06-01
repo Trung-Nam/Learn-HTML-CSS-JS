@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <!-- Phần đầu -->
+<head>
+<title> SHARE WHAT </title>
+<meta charset="utf-8">
+
+<style>
+    html, body{
+        margin:0px;
+    }
+    .box1{
+        width: 100%;
+        height:50vh;
+        background-color:green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 10px dashed black;
+        padding: 10px;
+        background-clip: content-box;
+        /* background-origin: content-box; */
+        /* Khi sử dụng background-origin cho màu nền thì k được áp dụng */
+    }
+
+    .box2{
+        width: 100%;
+        height: 50vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border: 10px dashed black;
+        padding: 10px;
+        background-size: 100% ;
+        background-repeat:no-repeat;
+        background-image: linear-gradient(0, rgba(0,0,255,0.5), rgba(255,255,0,0.5)),
+        url(https://wall.vn/wp-content/uploads/2020/03/hinh-nen-dep-may-tinh-1.jpg);
+        background-clip: content-box;
+    }
+    </style>
+</head>
+
+<!-- Phần thân -->
+<body>
+    <li>background-size: contain (chọn cánh dài hơn nhưng KHÔNG che mất hình ảnh nào)</li>
+    <li>background-size: cover (chọn cánh dài hơn nhưng VẪN CHE mất phần ảnh ngắn hơn)</li>
+    <div class="box1">CSS BACKGROUND-COLOR</div> 
+    <div class="box2">CSS BACKGROUND-IMAGE</div>
+</body>
+</html>
+<!-- 1. background-clip áp dụng cho cả Màu nền và Hình ảnh
+2. background-origin chỉ áp dụng cho Hình ảnh (KHÔNG bao gồm Màu nền) -->

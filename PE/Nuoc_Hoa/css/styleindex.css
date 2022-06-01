@@ -1,0 +1,126 @@
+.header{
+    display: flex;
+    height:10vh;
+    align-items: center;
+}
+.logochanel {
+    margin-left: 50px;
+    width: calc(25% - 50px);
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logochanel img{
+    width:90px;
+    height:70px;
+}
+.link_a ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 1%;
+}
+.link_a ul li {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link_a ul li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 24px;
+}
+.search {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:500px;  
+}
+.search button,.search input {
+    padding:8px 16px;
+}
+.img_banner{
+    width: 100%;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+.body {
+    width: 100%;
+    text-align: center;
+}
+.sale_off {
+    display: inline-block;
+    width: calc(92%/4);
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 20%) 1px 1px 8px 8px;
+    margin:10px;
+    height:46vh;
+}
+.sale_off img {
+    width: 300px;
+    height: 300px;
+}
+.sale_off p {
+    color:red;
+}
+.sale_off p del {
+    color: rgb(141, 141, 141);
+}
+.sale_off .buy_now{
+    background-color:#DB9810;
+    width: 90px;
+    height:30px;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.vip{
+    background-image: url("../images/Banner02.jpg");
+    height:45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vip h2 {
+    font-size:50px;
+    color:white;
+    text-align: center;
+    padding-top:16px;
+}
+.container {
+    width: 98%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+}
+
+.container img {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.container .chanel_n5 {
+    box-shadow: rgb(8 8 10 / 20%) 1px 1px 8px 7px;
+    width: 48%;
+    height: 100%;
+}
+.container h3 {
+    font-size:28px;
+}
+.container p {
+    font-size:18px;
+}
+.footer {
+    background-color:rgba(0, 0, 0, 0.8);
+    color:white;
+    text-align: center;
+    padding: 16px;
+}

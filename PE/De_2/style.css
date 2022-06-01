@@ -1,0 +1,87 @@
+header{
+    height: 25%;
+    background-color: #add8e6;
+    text-align: center;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 5px;
+}
+h1{
+    color: gray;
+}
+
+nav a {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.left {
+    float: left;
+    width: 18%;
+    background-color: #add8e6;
+    margin: 8px 4px 8px 8px;
+    border-radius: 5px;
+    padding-bottom: 260px;
+}
+.left ul{
+    padding:8px;
+}
+.left ul li{
+    background-color: blue;
+    list-style-type: none;
+    margin: 2px;
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+}
+.left ul li:hover{
+    background-color:gray;
+    cursor: pointer;
+}
+.form{
+    margin: 8px;
+}
+input,select,textarea{
+    margin-top: 2px;
+    width:60%;
+}
+.left button{
+    margin-top: 4px;
+}
+.left textarea{
+    width: 60%;
+    height: 100px;
+}
+
+.right {
+    float: right;
+    height: auto;
+    width: 79%;
+    background-color: #add8e6;
+    margin: 8px 8px 8px 4px;
+    border-radius: 5px;
+    padding:8px;
+    padding-bottom:300px;
+}
+.right p::first-line{
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+.right p{
+    font-size:20px;
+}
+.right ul li {
+    font-size:20px;
+}
+footer {
+    clear: both;
+    height: 100px;
+    background-color: #add8e6;
+    border-radius: 5px;
+    text-align: center;
+    margin: 8px;
+    padding-top: 10px;
+
+}

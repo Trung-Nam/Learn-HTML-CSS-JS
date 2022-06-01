@@ -1,0 +1,72 @@
+header {
+  height: 30vh;
+  background-image: url(/Coursera/Mooc-2-Week2/image/flywheel.jpg);
+  text-align: center;
+  background-size: 100%;
+  width: 100%;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  border: 10px;
+  color: #fff;
+  padding: 20px;
+  margin: 5px;
+  font-size: 60px;
+}
+
+#nav li a,
+li {
+  display: inline-block;
+}
+
+#navigation li a {
+  padding: 25px;
+  width: 250px;
+  margin: 20px 60px 20px 60px;
+  border: 1px solid #000;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+#navigation li a:hover {
+  background-color: #fff;
+}
+
+.column {
+  padding: 0 10px;
+  float: left;
+}
+
+.column-three {
+  width: 33.33333%;
+}
+
+a img {
+  width: 85%;
+  display: block;
+  margin: 30px;
+  border: 2px solid #000;
+}
+
+.content-l {
+  text-align: center;
+  background-color: rgb(0, 100, 30);
+  justify-content: center;
+  width: 20%;
+}
+
+.content-r {
+  padding: 10px 0px;
+}
+
+h2 {
+  padding-top: 20px 0px;
+  font-style: italic;
+  font-size: 39px;
+}
+
+p {
+  font-size: 35px;
+}
